@@ -1,4 +1,4 @@
-package celeryman
+package main
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"github.com/cobraclamp/celeryman/config"
 )
 
-func init() {
+func main() {
 	err := config.ReadConfig()
 
 	if err != nil {
